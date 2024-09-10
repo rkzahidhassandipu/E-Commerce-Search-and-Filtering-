@@ -1,4 +1,5 @@
 import React from 'react'
+import Input from '../../components/Input';
 
 const Price = () => {
   return (
@@ -7,7 +8,7 @@ const Price = () => {
         <h1 className='ml-3'>Price</h1>
       </div>
       <form className='text-start pl-3' action="">
-        
+        <Input />
       </form>
       
     </div>
