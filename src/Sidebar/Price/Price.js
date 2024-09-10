@@ -9,6 +9,9 @@ const Price = () => {
       </div>
       <form className='text-start pl-3' action="">
         <Input />
+        <Input />
+        <Input />
+        <Input />
       </form>
       
     </div>
