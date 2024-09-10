@@ -4,7 +4,7 @@ import { FaShoppingBag } from "react-icons/fa";
 
 const Cart = () => {
   return (
-    <div className='w-60 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl mt-4 lg:mt-0'>
+    <div className='w-60 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl mt-4  lg:mt-0'>
         <img src="https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg" alt="" />
         <div className='pt-3'>
           <h2>Shoes</h2>
