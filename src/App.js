@@ -13,8 +13,19 @@ function App() {
   const [selectCategory, setSelectCategory] = useState(null);
 
   const [query, setQuery] = useState('');
+
+  // ------ input filtering ----------
   const handleInputChange = (event) => {
     setQuery(event.target.value);
+  }
+
+  const filteredItems = products.filter((product) => {
+    product.title.toLocaleLowerCase().indexOf(query.toLocaleLowerCase() !== -1)
+  })
+
+   // ------ input filtering ----------
+  const handleChange = (event) => {
+    selectCategory
   }
   return (
     <>
