@@ -25,8 +25,17 @@ function App() {
 
    // ------ input filtering ----------
   const handleChange = (event) => {
-    selectCategory
+    setSelectCategory(event.target.value)
   }
+
+  // -------- button filtering -----------
+  const handleClick = (event) => {
+    setSelectCategory(event.target.value)
+  }
+
+
+
+
   return (
     <>
       <Sidebar />
