@@ -34,4 +34,4 @@ const Price = () => {
   )
 }
 
-export default Price
+export default Price;
