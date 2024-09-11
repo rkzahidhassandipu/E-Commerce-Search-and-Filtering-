@@ -4,11 +4,11 @@ import { FaShoppingBag } from "react-icons/fa";
 
 const Cart = ({img, title, star, prevPrice, newPrice, reviews}) => {
   return (
-    <div className='w-64 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl mx-5 my-6 border cursor-pointer lg:mt-0'>
-        <img className='w-full' src={img} alt={title} />
-        <div className='pt-3'>
-          <h2>{title}</h2>
-          <div className='flex items-center text-amber-500'>
+    <div className='w-72 p-2 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl my-6 border cursor-pointer lg:mt-0'>
+        <img className='w-full h-56' src={img} alt={title} />
+        <div className='pt-3 py-3 my-3 px-2'>
+          <h2 className='text-xl'>{title}</h2>
+          <div className='flex items-center text-amber-500 my-2'>
             {star}
             {star}
             {star}
