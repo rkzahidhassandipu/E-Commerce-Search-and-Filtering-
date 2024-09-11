@@ -6,9 +6,9 @@ const Recommended = ({onClickHandler, value, title}) => {
       <h1 className='font-semibold text-2xl'>Recommended</h1>
       <div className='mt-3'>
         <button className='border rounded-md text-base px-2 py-1 mx-3'
-          onClick={onClickHandler} value={}
+          onClick={onClickHandler} value={value}
         >
-
+          {title}
         </button>
       </div>
     </div>
