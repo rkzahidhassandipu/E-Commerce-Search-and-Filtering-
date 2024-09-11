@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Recommended = ({onClickHandler, value, title}) => {
+const Recommended = () => {
   return (
     <div className='w-4/5 mx-auto py-5'>
       <h1 className='font-semibold text-2xl'>Recommended</h1>
