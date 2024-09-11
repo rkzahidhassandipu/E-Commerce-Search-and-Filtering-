@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Buttons = () => {
+const Buttons = ({onClickHandler, value, title}) => {
   return (
-    <div>Buttons </div>
+    <button className='border rounded-md text-base px-2 py-1 mx-3'
+          onClick={onClickHandler} value={value}
+        >
+          {title}
+        </button>
   )
 }
 
